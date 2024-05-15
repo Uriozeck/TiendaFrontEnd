@@ -60,6 +60,18 @@ h3 {
 .header__logo {
     margin: 3rem 0;
 }
+/* FOOTER */
+
+.footer {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.footer__texto {
+    font-family: var(--furntePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+}
 /* NAVEGACIÓN */
 
 .navegacion {
@@ -73,6 +85,10 @@ h3 {
     font-family: var(--furntePrincipal);
     color: var(--blanco);
     font-size: 3rem;
+    margin-right: 2rem;
+}
+.navegacion__enlace:last-of-type {
+    margin-right: 0;
 }
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
