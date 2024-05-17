@@ -87,10 +87,21 @@ h3 {
     font-size: 3rem;
     margin-right: 2rem;
 }
-.navegacion__enlace:last-of-type {
+/* .navegacion__enlace:last-of-type {
     margin-right: 0;
-}
+} */
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
     color: var(--secundario);
 }
+/* PRODUCTOS */
+
+.producto {
+
+}
+.producto__imagen {
+
+}
+.producto__informacion {}
+.prodcuto__nombre {}
+.producto__precio {}
