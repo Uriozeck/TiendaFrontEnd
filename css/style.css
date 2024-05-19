@@ -156,3 +156,43 @@ h3 {
         grid-column: 2 / 4;
     }
 }
+
+/* NOSOTROS */
+.nosotros {
+    display: grid; /*Se habilitan las propiedades de Grid*/
+    grid-template-rows: repeat(2, auto); /* se crean dos culumnas para acomodar la imagen en pantallas de tablet y moviles*/
+    gap: 2rem; /*Se agrega un espacio de 20px*/
+}
+.nosotros__imagen {
+    width: 100%;
+    grid-row: 2 / 1; /*Se acomoda la imagen de la fila 2 a la 1 para que esta aparezca arriba del texto*/
+}
+@media (min-width: 768px) {
+    .nosotros {
+        grid-template-columns: repeat(2, 1fr); /*Se crean dos columnas para tamaños de 769px en adelante*/
+    }
+    .nosotros__imagen {
+        grid-column: 2 / 3; /*Se acomoda la imagen de la columna 2 a la tres para que aparesca del lado derecho del texto*/
+    }
+}
+
+/* BLOQUES */
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+@media (min-width: 768px) {
+    .bloques {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.bloque {
+    text-align: center;
+}
+.bloque__imagen {
+ width: 100%;   
+}
+.bloque__titulo {
+    margin: 0;
+}
